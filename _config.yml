@@ -23,10 +23,10 @@ subtitle                 : # site tagline that appears below site title in masth
 name                     : "Alemayehu TAYE"
 port                     : 4000
 host                     : "0.0.0.0"
-description              : "Alemayehu TAYE"
-url                      : #"https://fritz-io.github.io" ################# update it later
+description              : "Alemayehu TAYE - PhD Economist, University of Luxembourg. Applied microeconomics, labour and development economics, and the intersection of machine learning and microeconometrics."
+url                      : "https://alextaye.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "alextaye/alextaye.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -87,7 +87,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : "/profile3.PNG" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
