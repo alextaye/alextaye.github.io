@@ -1,8 +1,11 @@
-FROM ruby:2.5
+FROM ruby:3.2-slim
 
 WORKDIR /usr/src/app
 
-COPY Gemfile minimal-mistakes-jekyll.gemspec ./
+RUN apt-get update && apt-get install -y --no-install-recommends build-essential git \
+    && rm -rf /var/lib/apt/lists/*
+
+COPY Gemfile Gemfile.lock minimal-mistakes-jekyll.gemspec ./
 
 RUN bundle install
 

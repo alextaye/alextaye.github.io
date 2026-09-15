@@ -1,0 +1,18 @@
+# Jekyll
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# Bundler
+.bundle/
+vendor/bundle/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# OS / editor
+.DS_Store
+.vscode/
+*.swp
