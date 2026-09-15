@@ -17,3 +17,19 @@ figure figcaption {
     flex-direction: column;
     align-items: center;
 }
+
+.theme-toggle {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    height: $nav-toggle-height;
+    border: 0;
+    outline: none;
+    color: $primary-color;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.2s;
+
+    &:hover {
+        color: mix(#000, $primary-color, 25%);
+    }
+}
