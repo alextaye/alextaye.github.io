@@ -18,15 +18,18 @@ toc_icon: "gear"
 * Brownbag Seminar, STATEC-Research, Luxembourg, April 2022. <br>
 * Inequality by the Numbers workshop, CUNY Graduate Center, New York, Jun 2019. <br>
 
-## Summer Schools 
+## Summer Schools
+
 * Causal Analysis and Machine Learning, University of Oxford, Oxford, September 2022. <br>
 * Explainable Data Science, European Association for Data Science (EuADS), September 2019.
 
-## Research Visits   
-* STATEC-Research, Luxembourg, May - August 2019.<br> 
-* Ethiopian Economics Association, Addis Ababa, Ethiopia, Jun - August 2008. 
+## Research Visits
 
-## <i class='fas fa-globe-africa' style='font-size:24px'></i> Places I have been:
+* STATEC-Research, Luxembourg, May - August 2019.<br>
+* Ethiopian Economics Association, Addis Ababa, Ethiopia, Jun - August 2008.
+
+## <i class='fas fa-globe-africa' style='font-size:24px'></i> Places I have been
+
 <script src="https://www.amcharts.com/lib/3/ammap.js" type="text/javascript"></script>
 <script src="https://www.amcharts.com/lib/3/maps/js/worldHigh.js" type="text/javascript"></script>
 <script src="https://www.amcharts.com/lib/3/themes/dark.js" type="text/javascript"></script>

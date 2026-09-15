@@ -29,4 +29,3 @@ Outside of my research, I enjoy painting and photography, which help me to maint
 <!--, and I have volunteered with [insert the organizations with which you have volunteered].
 <i class='fas fa-download' style='font-size:18px'></i> You can download my full <a target="_blank" href="/_pages/Taye_cv.pdf">Curriculum Vitae <i class="far fa-file-pdf"></i></a> here.
 -->
- 
