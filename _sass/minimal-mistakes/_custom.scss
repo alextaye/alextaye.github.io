@@ -18,6 +18,61 @@ figure figcaption {
     align-items: center;
 }
 
+/* Sidebar author profile: bigger avatar, small-caps affiliation label,
+   pinned location, icon-button style social links */
+.author__avatar img {
+    @include breakpoint($large) {
+        max-width: 190px;
+    }
+}
+
+.author__bio {
+    color: $primary-color;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.author__urls.social-icons {
+    li[itemprop="homeLocation"] i {
+        color: $secondary-color;
+    }
+
+    li a {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        margin: 4px 4px 4px 0;
+        border: 1px solid $border-color;
+        border-radius: 50%;
+        transition: background-color 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+
+        .label {
+            @extend .visually-hidden;
+        }
+
+        i {
+            color: $muted-text-color;
+            font-size: 1rem;
+            transition: color 0.2s ease;
+        }
+
+        &:hover,
+        &:focus {
+            background-color: $primary-color;
+            border-color: $primary-color;
+            transform: translateY(-2px);
+
+            i {
+                color: $background-color;
+            }
+        }
+    }
+}
+
 .theme-toggle {
     margin-left: 1rem;
     margin-right: 1rem;
