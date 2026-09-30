@@ -2,4 +2,24 @@
    Default skin
    ========================================================================== */
 
-// Intentionally left blank
+/* Colors */
+$background-color           : #FBF9F4 !default; // warm ivory, not stark white
+$text-color                 : #1A1712 !default;
+$muted-text-color           : #3E372C !default;
+$border-color                : #DDD3BE !default;
+$code-background-color      : #F3EEE3 !default;
+$code-background-color-dark : mix(#000, $code-background-color, 15%) !default;
+$form-background-color      : #F3EEE3 !default;
+$footer-background-color    : #F3EEE3 !default;
+
+$primary-color              : #0B4F4A !default; // deep teal/emerald
+$secondary-color            : #B8551F !default; // warm amber, used for accent labels/tags
+$focus-color                : $primary-color !default;
+$active-color                : mix(#fff, $primary-color, 80%) !default;
+
+/* links */
+$link-color                 : $primary-color !default;
+$link-color-hover           : mix(#000, $link-color, 25%) !default;
+$link-color-visited         : mix(#000, $link-color, 15%) !default;
+$masthead-link-color        : $muted-text-color !default;
+$masthead-link-color-hover  : $text-color !default;
