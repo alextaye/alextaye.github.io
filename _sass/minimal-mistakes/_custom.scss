@@ -39,20 +39,36 @@ figure figcaption {
 }
 
 .author__urls.social-icons {
-    li[itemprop="homeLocation"] i {
-        color: $secondary-color;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0;
+
+    li {
+        white-space: normal;
+    }
+
+    li[itemprop="homeLocation"] {
+        flex-basis: 100%; // force the icon row onto its own line below
+        margin-bottom: 0.3rem;
+
+        i {
+            color: $secondary-color;
+        }
     }
 
     li a {
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        width: 40px;
-        height: 40px;
-        margin: 4px 4px 4px 0;
+        width: 38px;
+        height: 38px;
+        margin: 0;
         border: 1px solid $border-color;
         border-radius: 50%;
-        transition: background-color 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+        box-shadow: 0 1px 2px rgba(#000, 0.04);
+        transition: background-color 0.2s ease, border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
 
         .label {
             @extend .visually-hidden;
@@ -60,7 +76,8 @@ figure figcaption {
 
         i {
             color: $muted-text-color;
-            font-size: 1rem;
+            font-size: 0.95rem;
+            line-height: 1;
             transition: color 0.2s ease;
         }
 
@@ -68,6 +85,7 @@ figure figcaption {
         &:focus {
             background-color: $primary-color;
             border-color: $primary-color;
+            box-shadow: 0 2px 6px rgba(#000, 0.12);
             transform: translateY(-2px);
 
             i {
@@ -208,20 +226,30 @@ figure figcaption {
 }
 
 .theme-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     margin-left: 1rem;
     margin-right: 1rem;
-    height: $nav-toggle-height;
-    padding: 0 0.85rem;
+    height: 34px;
+    width: 34px;
+    padding: 0;
     border: 1px solid $border-color;
     border-radius: 20px;
     outline: none;
     color: $primary-color;
     background-color: transparent;
     cursor: pointer;
-    transition: 0.2s;
+    transition: border-color 0.2s ease, color 0.2s ease, background-color 0.2s ease;
+
+    i {
+        font-size: 0.95rem;
+        line-height: 1;
+    }
 
     &:hover {
         border-color: $primary-color;
-        color: mix(#000, $primary-color, 25%);
+        color: $background-color;
+        background-color: $primary-color;
     }
 }
