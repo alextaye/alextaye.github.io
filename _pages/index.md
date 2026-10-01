@@ -63,6 +63,14 @@ Random Forest / GBT / NN models outperform OLS baselines on German SOEP panel da
 </div>
 </div>
 
+<div class="divider"><span>&#9670;</span></div>
+
+## Selected Posts
+
+<div class="card" markdown="1">
+_New posts coming soon._ In the meantime, check out [what else I'm working on](/misc/).
+</div>
+
 ***
 <!--, and I have volunteered with [insert the organizations with which you have volunteered].
 <i class='fas fa-download' style='font-size:18px'></i> You can download my full <a target="_blank" href="/_pages/Taye_cv.pdf">Curriculum Vitae <i class="far fa-file-pdf"></i></a> here.
