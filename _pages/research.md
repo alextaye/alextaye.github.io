@@ -19,6 +19,8 @@ My published work can also be tracked on [Google Scholar](https://scholar.google
 ## Peer-Reviewed Scientific Articles
 -->
 
+<div class="cards" markdown="1">
+<div class="card" markdown="1">
 **A machine learning approach to predict self-protecting behaviors during the early wave of the COVID-19 pandemic**  
 &nbsp; &nbsp;(joint with Liyousew G. Borga, Samuel Greiff, Claus Vögele, Conchita D’Ambrosio)<br>
 &nbsp; &nbsp;*In Scientific Reports - Nature, 2023*  
@@ -28,22 +30,29 @@ Using a unique harmonised real‐time data set from the COME-HERE longitudinal s
   <!--Manuscript: [RefugeesWork.pdf](/home/files/papers/RefugeesWork.pdf)  
   Supplementary appendix: [RefugeesWork_OnlineAppendix.pdf](/home/files/papers/RefugeesWork_onlineAppendix.pdf)  
   Registered pre-analysis plan: [AEA RCT Registry](https://www.socialscienceregistry.org/trials/3870) -->
+</div>
+</div>
 
 ## Working papers
 
+<div class="cards" markdown="1">
+<div class="card" markdown="1">
 **Vulnerability to Poverty: An Explainable Machine Learning Approach**  
 &nbsp; &nbsp;(joint with C. D'Ambrosio)  
 &nbsp; &nbsp;*Working paper, 2023*  
 
 Building on the definition of vulnerability as expected poverty, we train supervised machine-learning algorithms and a baseline OLS using the German Socio-Economic Panel (version 37) data for years 1984-2020 under two scenarios: 1) considering only cross-sectional data; 2) using over time information on the relative position of the household in the income distribution. Random Forest (RF), Gradient boosted trees (GBT), and Neural Networks (NN) predict the vulnerable group on average by 20%, 15.3%, and 12,3% more than the OLS in the first scenario. The hit rate and the overall accuracy of all vulnerability estimates increase in the second scenario, but the sensitivity gains shrink to 15.6%, 11.5%, and 6.6%, respectively. With Shapely values from the RF model, we explain the sources of vulnerability and their evolution. We find that weak ties to the labour market, single-person households, the number of dependants in the family, living in East Germany, and the sociodemographic characteristics of household head are associated with vulnerability to poverty.
   <!--Manuscript: [adaptive_social_welfare.pdf](/home/files/papers/adaptive_social_welfare.pdf) -->
+</div>
 
-***
+<div class="card" markdown="1">
 **Predicting Material and Social Deprivations in EU with ML**  
 &nbsp; &nbsp;*Working paper, 2023*  
 <!--Manuscript: [handbook_politicalecon_ai.pdf](/home/files/papers/handbook_politicalecon_ai.pdf)-->  
 
 Using the European Union Statistics on Income and Living Conditions (EU-SILC) microdata and applying machine learning (ML) algorithms,  I explore the questions: 1) How accurately can one classify unseen individuals' deprivations status given their observable personal, household, and country-specific factors? 2) What is the performance of targeting subsets of features, such as sociodemographic, socioeconomic, health, and location, to identify the deprived? 3) What are the key predictors and their partial effects? Key results of the empirical analysis demonstrate that the relative accuracy gained by using the sophisticated tree-based ML algorithm is positive and significant compared to that of the standard Generalised linear model (7.3% relative gain with the Extreme gradient boosted trees and 5.9% with the Random forests). Socioeconomic factors yield a classification accuracy as close as when the whole set of features is considered. Feature importance and partial effect analysis identified with Shapley's value reveal insightful relationships consistent with theoretical and empirical evidence.
+</div>
+</div>
 
 ***
 

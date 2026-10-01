@@ -18,15 +18,15 @@ figure figcaption {
     align-items: center;
 }
 
-/* Sidebar author profile: bigger oval avatar, small-caps affiliation label,
+/* Sidebar author profile: bigger avatar, small-caps affiliation label,
    pinned location, icon-button style social links */
 .author__avatar img {
     @include breakpoint($large) {
         width: 190px;
-        height: 230px;
+        height: 190px;
         max-width: none;
         object-fit: cover;
-        border-radius: 50%; // rectangular box + 50% radius = oval, not a circle
+        border-radius: 50%;
     }
 }
 
@@ -127,7 +127,9 @@ figure figcaption {
     margin-left: 1rem;
     margin-right: 1rem;
     height: $nav-toggle-height;
-    border: 0;
+    padding: 0 0.85rem;
+    border: 1px solid $border-color;
+    border-radius: 20px;
     outline: none;
     color: $primary-color;
     background-color: transparent;
@@ -135,6 +137,7 @@ figure figcaption {
     transition: 0.2s;
 
     &:hover {
+        border-color: $primary-color;
         color: mix(#000, $primary-color, 25%);
     }
 }
