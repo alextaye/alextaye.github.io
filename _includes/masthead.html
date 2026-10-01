@@ -13,8 +13,16 @@
         </a>
         <ul class="visible-links">
           {%- for link in site.data.navigation.main -%}
+            {%- assign nav_is_active = false -%}
+            {%- if link.url == "/" -%}
+              {%- if page.url == "/" or page.url == "/index.html" -%}
+                {%- assign nav_is_active = true -%}
+              {%- endif -%}
+            {%- elsif page.url contains link.url -%}
+              {%- assign nav_is_active = true -%}
+            {%- endif -%}
             <li class="masthead__menu-item">
-              <a href="{{ link.url | relative_url }}"{% if link.url == page.url or (link.url == "/" and page.url == "/index.html") %} class="active"{% endif %}{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
+              <a href="{{ link.url | relative_url }}"{% if nav_is_active %} class="active"{% endif %}{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
             </li>
           {%- endfor -%}
         </ul>
