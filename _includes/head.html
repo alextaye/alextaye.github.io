@@ -107,16 +107,16 @@
 {% if site.minimal_mistakes_skin2 %}
 <link rel="stylesheet alternate" href="{{ '/assets/css/theme2.css' | relative_url }}" id="theme_source_2">
 <script>
-  let theme = sessionStorage.getItem('theme');
-  if (theme === "dark") {
-    sessionStorage.setItem('theme', 'dark');
+  let theme = sessionStorage.getItem('mm_theme_pref');
+  if (theme === "alternate") {
+    sessionStorage.setItem('mm_theme_pref', 'alternate');
     node1 = document.getElementById('theme_source');
     node2 = document.getElementById('theme_source_2');
     node1.setAttribute('rel', 'stylesheet alternate');
     node2.setAttribute('rel', 'stylesheet');
   }
   else {
-    sessionStorage.setItem('theme', 'light');
+    sessionStorage.setItem('mm_theme_pref', 'default');
   }
 </script>
 {% endif %}
