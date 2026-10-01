@@ -13,10 +13,8 @@ classes: wide
 {: .hero-title}
 
 <p class="lead" markdown="1">
-I am Alemayehu Taye, a recent Ph.D. graduate from the University of Luxembourg, currently on the job market. I study poverty, wellbeing, and labour markets using explainable machine learning and causal inference.
+I am Alemayehu Taye, a recent Ph.D. graduate from the University of Luxembourg, currently on the job market. I study poverty, wellbeing, and labour markets using explainable machine learning and causal inference. Before that, I was a doctoral researcher in Economics at the <a href="https://wwwen.uni.lu/fdef/department_of_economics_and_management/">University of Luxembourg</a> (Department of Economics and Management) in Data-driven Computational Modelling and Applications <a href="https://driven.uni.lu/team/">(DRIVEN)</a> research team.
 </p>
-
-I am Alex Taye, a recent Ph.D. graduate and currently on the job market. Before that, I was a doctoral researcher in Economics at the <a href="https://wwwen.uni.lu/fdef/department_of_economics_and_management/"> University of Luxembourg</a> (Department of Economics and Management) in Data-driven Computational Modelling and Applications <a href="https://driven.uni.lu/team/"> (DRIVEN)</a> research team.
 
 My main research interest lies in the field of applied microeconomics, development economics, labour economics, inequality and well-being, household economics, the intersection of machine learning and microeconometrics.
 
