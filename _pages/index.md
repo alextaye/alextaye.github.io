@@ -16,13 +16,6 @@ classes: wide
 I am Alemayehu Taye, a recent Ph.D. graduate from the University of Luxembourg, currently on the job market. I study poverty, wellbeing, and labour markets using explainable machine learning and causal inference.
 </p>
 
-<div class="btn-row" markdown="1">
-[Download CV](/_pages/Taye_cv.pdf){: .btn .btn--primary target="_blank"}
-[View Research &rarr;](/research/){: .btn-text}
-</div>
-
-<div class="divider"><span>&#9670;</span></div>
-
 I am Alex Taye, a recent Ph.D. graduate and currently on the job market. Before that, I was a doctoral researcher in Economics at the <a href="https://wwwen.uni.lu/fdef/department_of_economics_and_management/"> University of Luxembourg</a> (Department of Economics and Management) in Data-driven Computational Modelling and Applications <a href="https://driven.uni.lu/team/"> (DRIVEN)</a> research team.
 <br>
 <br>
@@ -36,6 +29,11 @@ interpretative tools and causal analysis to improve our theoretical understandin
 Prior to commencing my postgraduate studies, I worked as an Assistant Research Officer in the Economic Modeling and Statistical Analysis Department at the Central Bank of Ethiopia.
 
 Outside of my research, I enjoy painting and photography, which help me to maintain a healthy work-life balance. I also believe in the importance of giving back to the community.
+
+<div class="btn-row" markdown="1">
+[Download CV](/_pages/Taye_cv.pdf){: .btn .btn--primary target="_blank"}
+[View Research &rarr;](/research/){: .btn-text}
+</div>
 
 <div class="divider"><span>&#9670;</span></div>
 
@@ -62,8 +60,6 @@ Random Forest / GBT / NN models outperform OLS baselines on German SOEP panel da
 [Read more &rarr;](/research/){: .inline-link}
 </div>
 </div>
-
-<div class="divider"><span>&#9670;</span></div>
 
 ## Selected Posts
 
