@@ -43,11 +43,6 @@ toc_icon: "gear"
 
 <div class="timeline" markdown="1">
 <div class="timeline__item" markdown="1">
-<span class="timeline__date">2023 - Present</span>
-<div class="timeline__title">Senior Data Scientist</div>
-<div class="timeline__org">Luxembourg National Data Service (LNDS), University of Luxembourg</div>
-</div>
-<div class="timeline__item" markdown="1">
 <span class="timeline__date">2019 - 2023</span>
 <div class="timeline__title">Doctoral Researcher</div>
 <div class="timeline__org">University of Luxembourg</div>
