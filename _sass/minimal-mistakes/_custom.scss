@@ -148,6 +148,22 @@ figure figcaption {
     margin-bottom: 0.5em;
 }
 
+/* Authors/venue byline under a .card h3 title, e.g. for research.md
+   publication cards - kept separate from the generic .card p rule
+   (which assumes a single short caption line) since these cards also
+   hold a longer abstract paragraph below it */
+.card__meta {
+    display: block;
+    color: $muted-text-color;
+    font-size: 0.85em;
+    font-style: italic;
+    margin-bottom: 0.6em;
+}
+
+.card__links {
+    margin-top: 0.8em;
+}
+
 /* Consistent colored icon used in page headings (CV, Links, Contact),
    replacing ad-hoc inline style="font-size:Xpx" on <i> tags */
 .heading-icon {
