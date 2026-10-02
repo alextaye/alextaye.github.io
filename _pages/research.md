@@ -20,8 +20,6 @@ My research sits at the intersection of applied microeconomics and machine learn
 
 ### A machine learning approach to predict self-protecting behaviors during the early wave of the COVID-19 pandemic
 
-<span class="card__meta">Joint with Liyousew G. Borga, Samuel Greiff, Claus Vögele, Conchita D'Ambrosio</span>
-
 Using a unique harmonised real‐time data set from the COME-HERE longitudinal survey that covers five European countries (France, Germany, Italy, Spain, and Sweden) and applying a non-parametric machine learning model, we identify the main individual and macro-level predictors of self-protecting behaviours against the coronavirus disease 2019 (COVID-19) during the first wave of the pandemic. Exploiting the interpretability of a Random forest algorithm via Shapely values, we find that a higher regional incidence of COVID-19 triggers higher levels of self-protective behaviour, as does a stricter government policy response. The level of individual knowledge about the pandemic, confidence in institutions, and population density also ranks high among the factors that predict self-protecting behaviours. We also identify a steep socioeconomic gradient with lower levels of self-protecting behaviours being associated with lower income and poor housing conditions. Among socio-demographic factors, gender, marital status, age, and region of residence are the main determinants of self-protective measures.
 
 <div class="tag-pills" markdown="1">
@@ -59,13 +57,9 @@ Using the European Union Statistics on Income and Living Conditions (EU-SILC) mi
 [Read on Cairn.info &rarr;](https://shs.cairn.info/revista-vie-sciences-de-lentreprise-2025-3-page-402?lang=es){: .inline-link target="_blank" rel="noopener noreferrer"}
 </div>
 </div>
-</div>
 
-## <i class="far fa-file-alt heading-icon"></i>Working papers
-
-<div class="cards" markdown="1">
 <div class="card" markdown="1">
-<span class="card__tag">Working paper &middot; 2023</span>
+<span class="card__tag">Forthcoming &middot; The Journal of Economic Inequality</span>
 
 ### Vulnerability to Poverty: An Explainable Machine Learning Approach
 
@@ -74,13 +68,14 @@ Using the European Union Statistics on Income and Living Conditions (EU-SILC) mi
 Building on the definition of vulnerability as expected poverty, we train supervised machine-learning algorithms and a baseline OLS using the German Socio-Economic Panel (version 37) data for years 1984-2020 under two scenarios: 1) considering only cross-sectional data; 2) using over time information on the relative position of the household in the income distribution. Random Forest (RF), Gradient boosted trees (GBT), and Neural Networks (NN) predict the vulnerable group on average by 20%, 15.3%, and 12,3% more than the OLS in the first scenario. The hit rate and the overall accuracy of all vulnerability estimates increase in the second scenario, but the sensitivity gains shrink to 15.6%, 11.5%, and 6.6%, respectively. With Shapely values from the RF model, we explain the sources of vulnerability and their evolution. We find that weak ties to the labour market, single-person households, the number of dependants in the family, living in East Germany, and the sociodemographic characteristics of household head are associated with vulnerability to poverty.
 
 <div class="tag-pills" markdown="1">
-<span class="tag-pill">Poverty</span>
 <span class="tag-pill">Machine Learning</span>
-<span class="tag-pill">Panel Data</span>
-<span class="tag-pill">Explainability</span>
+<span class="tag-pill">Vulnerability</span>
+<span class="tag-pill">Poverty</span>
+<span class="tag-pill">Wellbeing</span>
+<span class="tag-pill">SOEP</span>
 </div>
 
-<span class="card__cite">Taye, A. D., & D'Ambrosio, C. (2023). Vulnerability to poverty: An explainable machine learning approach <em>[Working paper]</em>.</span>
+<span class="card__cite">Taye, A. D., & D'Ambrosio, C. (forthcoming). Vulnerability to poverty: An explainable machine learning approach. <em>The Journal of Economic Inequality</em>.</span>
 </div>
 </div>
 
