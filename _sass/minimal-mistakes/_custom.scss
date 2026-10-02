@@ -164,25 +164,12 @@ figure figcaption {
     margin-top: 0.8em;
 }
 
-/* Formatted citation + BibTeX toggle, e.g. for research.md cards */
+/* Formatted citation line, e.g. for research.md cards */
 .card__cite {
     display: block;
     color: $muted-text-color;
     font-size: 0.82em;
     margin: 0.8em 0 0.4em;
-}
-
-.bibtex-toggle {
-    margin-top: 0.3em;
-
-    summary {
-        cursor: pointer;
-        color: $primary-color;
-        font-size: 0.78em;
-        font-weight: 600;
-        text-transform: uppercase;
-        letter-spacing: 0.03em;
-    }
 }
 
 /* Consistent colored icon used in page headings (CV, Links, Contact),

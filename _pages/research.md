@@ -23,20 +23,6 @@ toc_icon: "gear"
 Using a unique harmonised real‐time data set from the COME-HERE longitudinal survey that covers five European countries (France, Germany, Italy, Spain, and Sweden) and applying a non-parametric machine learning model, we identify the main individual and macro-level predictors of self-protecting behaviours against the coronavirus disease 2019 (COVID-19) during the first wave of the pandemic. Exploiting the interpretability of a Random forest algorithm via Shapely values, we find that a higher regional incidence of COVID-19 triggers higher levels of self-protective behaviour, as does a stricter government policy response. The level of individual knowledge about the pandemic, confidence in institutions, and population density also ranks high among the factors that predict self-protecting behaviours. We also identify a steep socioeconomic gradient with lower levels of self-protecting behaviours being associated with lower income and poor housing conditions. Among socio-demographic factors, gender, marital status, age, and region of residence are the main determinants of self-protective measures.
 
 <span class="card__cite">Taye, A. D., Borga, L. G., Greiff, S., Vögele, C., & D'Ambrosio, C. (2023). A machine learning approach to predict self-protecting behaviors during the early wave of the COVID-19 pandemic. <em>Scientific Reports</em>.</span>
-
-<details class="bibtex-toggle" markdown="1">
-<summary>BibTeX</summary>
-
-```bibtex
-@article{taye2023selfprotecting,
-  title   = {A machine learning approach to predict self-protecting behaviors during the early wave of the COVID-19 pandemic},
-  author  = {Taye, Alemayehu D. and Borga, Liyousew G. and Greiff, Samuel and Vögele, Claus and D'Ambrosio, Conchita},
-  journal = {Scientific Reports},
-  year    = {2023}
-}
-```
-
-</details>
 </div>
 </div>
 
@@ -53,20 +39,6 @@ Using a unique harmonised real‐time data set from the COME-HERE longitudinal s
 Building on the definition of vulnerability as expected poverty, we train supervised machine-learning algorithms and a baseline OLS using the German Socio-Economic Panel (version 37) data for years 1984-2020 under two scenarios: 1) considering only cross-sectional data; 2) using over time information on the relative position of the household in the income distribution. Random Forest (RF), Gradient boosted trees (GBT), and Neural Networks (NN) predict the vulnerable group on average by 20%, 15.3%, and 12,3% more than the OLS in the first scenario. The hit rate and the overall accuracy of all vulnerability estimates increase in the second scenario, but the sensitivity gains shrink to 15.6%, 11.5%, and 6.6%, respectively. With Shapely values from the RF model, we explain the sources of vulnerability and their evolution. We find that weak ties to the labour market, single-person households, the number of dependants in the family, living in East Germany, and the sociodemographic characteristics of household head are associated with vulnerability to poverty.
 
 <span class="card__cite">Taye, A. D., & D'Ambrosio, C. (2023). Vulnerability to poverty: An explainable machine learning approach <em>[Working paper]</em>.</span>
-
-<details class="bibtex-toggle" markdown="1">
-<summary>BibTeX</summary>
-
-```bibtex
-@unpublished{taye2023vulnerability,
-  title  = {Vulnerability to Poverty: An Explainable Machine Learning Approach},
-  author = {Taye, Alemayehu D. and D'Ambrosio, Conchita},
-  note   = {Working paper},
-  year   = {2023}
-}
-```
-
-</details>
 </div>
 
 <div class="card" markdown="1">
@@ -77,20 +49,6 @@ Building on the definition of vulnerability as expected poverty, we train superv
 Using the European Union Statistics on Income and Living Conditions (EU-SILC) microdata and applying machine learning (ML) algorithms, I explore the questions: 1) How accurately can one classify unseen individuals' deprivations status given their observable personal, household, and country-specific factors? 2) What is the performance of targeting subsets of features, such as sociodemographic, socioeconomic, health, and location, to identify the deprived? 3) What are the key predictors and their partial effects? Key results of the empirical analysis demonstrate that the relative accuracy gained by using the sophisticated tree-based ML algorithm is positive and significant compared to that of the standard Generalised linear model (7.3% relative gain with the Extreme gradient boosted trees and 5.9% with the Random forests). Socioeconomic factors yield a classification accuracy as close as when the whole set of features is considered. Feature importance and partial effect analysis identified with Shapley's value reveal insightful relationships consistent with theoretical and empirical evidence.
 
 <span class="card__cite">Taye, A. D. (2023). Predicting material and social deprivations in EU with ML <em>[Working paper]</em>.</span>
-
-<details class="bibtex-toggle" markdown="1">
-<summary>BibTeX</summary>
-
-```bibtex
-@unpublished{taye2023deprivations,
-  title  = {Predicting Material and Social Deprivations in EU with ML},
-  author = {Taye, Alemayehu D.},
-  note   = {Working paper},
-  year   = {2023}
-}
-```
-
-</details>
 </div>
 </div>
 
@@ -111,20 +69,5 @@ Using the European Union Statistics on Income and Living Conditions (EU-SILC) mi
 </div>
 
 <span class="card__cite">Taye, A. D. (2023). <em>Essays on the prediction and measurement of individual well-being</em> [Doctoral dissertation, University of Luxembourg]. ORBilu.</span>
-
-<details class="bibtex-toggle" markdown="1">
-<summary>BibTeX</summary>
-
-```bibtex
-@phdthesis{taye2023thesis,
-  title  = {Essays on the Prediction and Measurement of Individual Well-being},
-  author = {Taye, Alemayehu D.},
-  school = {University of Luxembourg},
-  year   = {2023},
-  url    = {https://orbilu.uni.lu/handle/10993/55174}
-}
-```
-
-</details>
 </div>
 </div>
