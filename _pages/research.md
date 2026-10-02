@@ -92,9 +92,17 @@ Using the European Union Statistics on Income and Living Conditions (EU-SILC) mi
 <span class="card__meta">Supervisor: Prof. Dr. Conchita D'Ambrosio</span>
 
 <div class="tag-pills" markdown="1">
-<span class="tag-pill">Wellbeing</span>
-<span class="tag-pill">Poverty Measurement</span>
 <span class="tag-pill">Machine Learning</span>
+<span class="tag-pill">Vulnerability</span>
+<span class="tag-pill">Poverty</span>
+<span class="tag-pill">Wellbeing</span>
+<span class="tag-pill">SOEP</span>
+<span class="tag-pill">Material Deprivation</span>
+<span class="tag-pill">SARS-CoV-2</span>
+<span class="tag-pill">Individual Behaviour</span>
+<span class="tag-pill">Explainable AI</span>
+<span class="tag-pill">Policy Response</span>
+<span class="tag-pill">EU-SILC</span>
 </div>
 
 <span class="card__cite">Taye, A. D. (2023). <em>Essays on the prediction and measurement of individual well-being</em> [Doctoral dissertation, University of Luxembourg]. ORBilu.</span>
