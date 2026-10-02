@@ -305,6 +305,39 @@ figure figcaption {
     color: $text-color;
 }
 
+/* Compact event list, e.g. for Activities page's Conferences/Summer
+   Schools/Research Visits - a left accent bar per row instead of
+   horizontal dividers (.honor-row) or a shared vertical line (.timeline),
+   so it reads as a distinct style from both */
+.event-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6em;
+    margin: 1em 0;
+}
+
+.event-row {
+    display: flex;
+    align-items: baseline;
+    gap: 0.8em;
+    padding: 0.2em 0 0.2em 0.9em;
+    border-left: 3px solid $primary-color;
+}
+
+.event-row__date {
+    flex: 0 0 auto;
+    color: $secondary-color;
+    font-weight: 600;
+    font-size: 0.78em;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    white-space: nowrap;
+}
+
+.event-row__text {
+    color: $text-color;
+}
+
 /* Contact info rows, e.g. address/phone on the Contact page - replaces
    ad-hoc inline style="font-size:30px" icons */
 .contact-rows {

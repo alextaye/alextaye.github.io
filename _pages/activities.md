@@ -12,52 +12,52 @@ toc_icon: "gear"
 
 ## <i class="fas fa-users heading-icon"></i>Selected Conferences & Workshops
 
-<div class="honor-list" markdown="1">
-<div class="honor-row" markdown="1">
-<span class="honor-row__year">Aug 2022</span>
-<span class="honor-row__text">IARIW 37th General Conference, Luxembourg</span>
+<div class="event-list" markdown="1">
+<div class="event-row" markdown="1">
+<span class="event-row__date">Aug 2022</span>
+<span class="event-row__text">IARIW 37th General Conference, Luxembourg</span>
 </div>
-<div class="honor-row" markdown="1">
-<span class="honor-row__year">Jun 2022</span>
-<span class="honor-row__text">Well-Being 2022 Conference, STATEC, Luxembourg</span>
+<div class="event-row" markdown="1">
+<span class="event-row__date">Jun 2022</span>
+<span class="event-row__text">Well-Being 2022 Conference, STATEC, Luxembourg</span>
 </div>
-<div class="honor-row" markdown="1">
-<span class="honor-row__year">Apr 2022</span>
-<span class="honor-row__text">The 14th Workshop on Labour Economics – IAAEU, University of Trier</span>
+<div class="event-row" markdown="1">
+<span class="event-row__date">Apr 2022</span>
+<span class="event-row__text">The 14th Workshop on Labour Economics – IAAEU, University of Trier</span>
 </div>
-<div class="honor-row" markdown="1">
-<span class="honor-row__year">Apr 2022</span>
-<span class="honor-row__text">Brownbag Seminar, STATEC-Research, Luxembourg</span>
+<div class="event-row" markdown="1">
+<span class="event-row__date">Apr 2022</span>
+<span class="event-row__text">Brownbag Seminar, STATEC-Research, Luxembourg</span>
 </div>
-<div class="honor-row" markdown="1">
-<span class="honor-row__year">Jun 2019</span>
-<span class="honor-row__text">Inequality by the Numbers Workshop, CUNY Graduate Center, New York</span>
+<div class="event-row" markdown="1">
+<span class="event-row__date">Jun 2019</span>
+<span class="event-row__text">Inequality by the Numbers Workshop, CUNY Graduate Center, New York</span>
 </div>
 </div>
 
 ## <i class="fas fa-school heading-icon"></i>Summer Schools
 
-<div class="honor-list" markdown="1">
-<div class="honor-row" markdown="1">
-<span class="honor-row__year">Sep 2022</span>
-<span class="honor-row__text">Causal Analysis and Machine Learning, University of Oxford, Oxford</span>
+<div class="event-list" markdown="1">
+<div class="event-row" markdown="1">
+<span class="event-row__date">Sep 2022</span>
+<span class="event-row__text">Causal Analysis and Machine Learning, University of Oxford, Oxford</span>
 </div>
-<div class="honor-row" markdown="1">
-<span class="honor-row__year">Sep 2019</span>
-<span class="honor-row__text">Explainable Data Science, European Association for Data Science (EuADS)</span>
+<div class="event-row" markdown="1">
+<span class="event-row__date">Sep 2019</span>
+<span class="event-row__text">Explainable Data Science, European Association for Data Science (EuADS)</span>
 </div>
 </div>
 
 ## <i class="fas fa-building heading-icon"></i>Research Visits
 
-<div class="honor-list" markdown="1">
-<div class="honor-row" markdown="1">
-<span class="honor-row__year">2019</span>
-<span class="honor-row__text">STATEC-Research, Luxembourg (May – August)</span>
+<div class="event-list" markdown="1">
+<div class="event-row" markdown="1">
+<span class="event-row__date">2019</span>
+<span class="event-row__text">STATEC-Research, Luxembourg (May – August)</span>
 </div>
-<div class="honor-row" markdown="1">
-<span class="honor-row__year">2008</span>
-<span class="honor-row__text">Ethiopian Economics Association, Addis Ababa, Ethiopia (June – August)</span>
+<div class="event-row" markdown="1">
+<span class="event-row__date">2008</span>
+<span class="event-row__text">Ethiopian Economics Association, Addis Ababa, Ethiopia (June – August)</span>
 </div>
 </div>
 
