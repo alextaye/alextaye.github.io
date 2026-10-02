@@ -277,6 +277,32 @@ figure figcaption {
     color: $text-color;
 }
 
+/* Contact info rows, e.g. address/phone on the Contact page - replaces
+   ad-hoc inline style="font-size:30px" icons */
+.contact-rows {
+    margin: 1em 0 1.5em;
+}
+
+.contact-row {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    padding: 0.6em 0;
+    border-bottom: 1px solid $border-color;
+
+    &:last-child {
+        border-bottom: none;
+    }
+}
+
+.contact-row__icon {
+    flex: 0 0 auto;
+    width: 1.6rem;
+    text-align: center;
+    color: $primary-color;
+    font-size: 1.1rem;
+}
+
 /* Homepage hero - spacing below is on the same scale as the theme's own
    paragraph rhythm ($indent-var), so hero/section gaps feel consistent
    with the rest of the page content */
