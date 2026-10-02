@@ -79,8 +79,6 @@ Building on the definition of vulnerability as expected poverty, we train superv
 </div>
 </div>
 
-***
-
 ## <i class="fas fa-graduation-cap heading-icon"></i>Theses
 
 <div class="cards" markdown="1">
