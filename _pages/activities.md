@@ -10,23 +10,65 @@ toc_label: "Category"
 toc_icon: "gear"
 ---
 
-## Selected Conferences & Workshops
+## <i class="fas fa-users heading-icon"></i>Selected Conferences & Workshops
 
-* IARIW 37th General Conference, Luxembourg, August 2022. <br>
-* Well-Being 2022 Conference, STATEC, Luxembourg, June 2022. <br>
-* The 14th Workshop on Labour Economics–IAAEU, University of Trier, April 2022. <br>
-* Brownbag Seminar, STATEC-Research, Luxembourg, April 2022. <br>
-* Inequality by the Numbers workshop, CUNY Graduate Center, New York, Jun 2019. <br>
+<div class="timeline" markdown="1">
+<div class="timeline__item" markdown="1">
+<span class="timeline__date">August 2022</span>
+<div class="timeline__title">IARIW 37th General Conference</div>
+<div class="timeline__org">Luxembourg</div>
+</div>
+<div class="timeline__item" markdown="1">
+<span class="timeline__date">June 2022</span>
+<div class="timeline__title">Well-Being 2022 Conference</div>
+<div class="timeline__org">STATEC, Luxembourg</div>
+</div>
+<div class="timeline__item" markdown="1">
+<span class="timeline__date">April 2022</span>
+<div class="timeline__title">The 14th Workshop on Labour Economics – IAAEU</div>
+<div class="timeline__org">University of Trier</div>
+</div>
+<div class="timeline__item" markdown="1">
+<span class="timeline__date">April 2022</span>
+<div class="timeline__title">Brownbag Seminar</div>
+<div class="timeline__org">STATEC-Research, Luxembourg</div>
+</div>
+<div class="timeline__item" markdown="1">
+<span class="timeline__date">June 2019</span>
+<div class="timeline__title">Inequality by the Numbers Workshop</div>
+<div class="timeline__org">CUNY Graduate Center, New York</div>
+</div>
+</div>
 
-## Summer Schools
+## <i class="fas fa-school heading-icon"></i>Summer Schools
 
-* Causal Analysis and Machine Learning, University of Oxford, Oxford, September 2022. <br>
-* Explainable Data Science, European Association for Data Science (EuADS), September 2019.
+<div class="timeline" markdown="1">
+<div class="timeline__item" markdown="1">
+<span class="timeline__date">September 2022</span>
+<div class="timeline__title">Causal Analysis and Machine Learning</div>
+<div class="timeline__org">University of Oxford, Oxford</div>
+</div>
+<div class="timeline__item" markdown="1">
+<span class="timeline__date">September 2019</span>
+<div class="timeline__title">Explainable Data Science</div>
+<div class="timeline__org">European Association for Data Science (EuADS)</div>
+</div>
+</div>
 
-## Research Visits
+## <i class="fas fa-building heading-icon"></i>Research Visits
 
-* STATEC-Research, Luxembourg, May - August 2019.<br>
-* Ethiopian Economics Association, Addis Ababa, Ethiopia, Jun - August 2008.
+<div class="timeline" markdown="1">
+<div class="timeline__item" markdown="1">
+<span class="timeline__date">May - August 2019</span>
+<div class="timeline__title">Visiting Researcher</div>
+<div class="timeline__org">STATEC-Research, Luxembourg</div>
+</div>
+<div class="timeline__item" markdown="1">
+<span class="timeline__date">June - August 2008</span>
+<div class="timeline__title">Visiting Researcher</div>
+<div class="timeline__org">Ethiopian Economics Association, Addis Ababa, Ethiopia</div>
+</div>
+</div>
 
 ## <i class="fas fa-globe-africa heading-icon"></i>Places I have been
 
