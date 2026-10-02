@@ -283,6 +283,10 @@ figure figcaption {
     gap: 0.9em;
     padding: 0.5em 0;
     border-bottom: 1px solid $border-color;
+
+    &:last-child {
+        border-bottom: none;
+    }
 }
 
 .honor-row__year {
