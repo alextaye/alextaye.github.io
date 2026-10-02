@@ -9,50 +9,130 @@ toc: true
 toc_label: "Category"
 toc_icon: "gear"
 ---
-<!--
-## Alemayehu D. Taye
-[Email](mailto:alemsight@gmail.com) | [LinkedIn](https://www.linkedin.com/in/alex2446/) | [GitHub](https://github.com/alextaye)
--->
-<i class='fas fa-download' style='font-size:18px'></i> You can download my full <a target="_blank" href="/_pages/Taye_cv.pdf">Curriculum Vitae <i class="far fa-file-pdf"></i></a> here.
+
+<a class="btn btn--primary" target="_blank" href="/_pages/Taye_cv.pdf"><i class="fas fa-download"></i> Download full CV <i class="far fa-file-pdf"></i></a>
 
 ***
 
-## <i class='fas fa-graduation-cap' style='font-size:20px'></i> Education
+## <i class="fas fa-graduation-cap heading-icon"></i>Education
 
-- PhD in Economics, University of Luxembourg, 2019 - 2023.
-- Master of Arts in Economics and Econometrics, CERGE-EI, Prague, Czechia, 2016 - 2018.
-- Master of Science in Economics and Finance, Charles University, Prague, Czechia, 2013 - 2015.
-- Bachelor of Arts in Economics, Haramaya University, Ethiopia, 2007 - 2010.
+<div class="timeline" markdown="1">
+<div class="timeline__item" markdown="1">
+<span class="timeline__date">2019 - 2023</span>
+<div class="timeline__title">PhD in Economics</div>
+<div class="timeline__org">University of Luxembourg</div>
+</div>
+<div class="timeline__item" markdown="1">
+<span class="timeline__date">2016 - 2018</span>
+<div class="timeline__title">Master of Arts in Economics and Econometrics</div>
+<div class="timeline__org">CERGE-EI, Prague, Czechia</div>
+</div>
+<div class="timeline__item" markdown="1">
+<span class="timeline__date">2013 - 2015</span>
+<div class="timeline__title">Master of Science in Economics and Finance</div>
+<div class="timeline__org">Charles University, Prague, Czechia</div>
+</div>
+<div class="timeline__item" markdown="1">
+<span class="timeline__date">2007 - 2010</span>
+<div class="timeline__title">Bachelor of Arts in Economics</div>
+<div class="timeline__org">Haramaya University, Ethiopia</div>
+</div>
+</div>
 
-## <i class='fas fa-briefcase' style='font-size:20px'></i> Work Experience
+## <i class="fas fa-briefcase heading-icon"></i>Work Experience
 
-- Doctoral Researcher, University of Luxembourg, 2019 - 2023.
-- Assistant Research officer, Central Bank of Ethiopia, 2010 - 2013.
-- Teaching Assistant, Haramaya University, 2009.
-- Research Intern, Ethiopian Economics Association, 2008.
+<div class="timeline" markdown="1">
+<div class="timeline__item" markdown="1">
+<span class="timeline__date">2019 - 2023</span>
+<div class="timeline__title">Doctoral Researcher</div>
+<div class="timeline__org">University of Luxembourg</div>
+</div>
+<div class="timeline__item" markdown="1">
+<span class="timeline__date">2010 - 2013</span>
+<div class="timeline__title">Assistant Research Officer</div>
+<div class="timeline__org">Central Bank of Ethiopia</div>
+</div>
+<div class="timeline__item" markdown="1">
+<span class="timeline__date">2009</span>
+<div class="timeline__title">Teaching Assistant</div>
+<div class="timeline__org">Haramaya University</div>
+</div>
+<div class="timeline__item" markdown="1">
+<span class="timeline__date">2008</span>
+<div class="timeline__title">Research Intern</div>
+<div class="timeline__org">Ethiopian Economics Association</div>
+</div>
+</div>
 
-## <i class='fas fa-puzzle-piece' style='font-size:20px'></i> Research Interests
+## <i class="fas fa-puzzle-piece heading-icon"></i>Research Interests
 
-- Applied microeconomics, labour and development economics, economics of wellbeing, family economics,
-and the intersection of machine learning and microeconometrics
+Applied microeconomics, labour and development economics, economics of wellbeing, family economics,
+and the intersection of machine learning and microeconometrics.
 
-## <i class='far fa-list-alt' style='font-size:20px'></i> Skills
+## <i class="far fa-list-alt heading-icon"></i>Skills
 
-- **Languages:** Amharic–Native, Affan Oromo–Native, English–Fluent, French–Elementary, and Czech–Basic.
-- **Text Editor:** LATEX, Markdown, and Microsoft Office.
-- **Data Processing:** STATA, Python, and R.
-- **Data Visualisation:** Plotly, Matplotlib, Seaborn, Dash, and ggplot.
-- **Machine Learning:** Scikit-learn, Keras, Tensorflow, PyTorch and more...
+<div class="tag-pills" markdown="1">
+<span class="tag-pill__label">Languages:</span>
+<span class="tag-pill">Amharic — Native</span>
+<span class="tag-pill">Affan Oromo — Native</span>
+<span class="tag-pill">English — Fluent</span>
+<span class="tag-pill">French — Elementary</span>
+<span class="tag-pill">Czech — Basic</span>
+</div>
 
-## <i class='fas fa-award' style='font-size:20px'></i> Honors and Scholarships
+<div class="tag-pills" markdown="1">
+<span class="tag-pill__label">Text Editor:</span>
+<span class="tag-pill">LaTeX</span>
+<span class="tag-pill">Markdown</span>
+<span class="tag-pill">Microsoft Office</span>
+</div>
 
-<details>
-<summary>List</summary>
-<ul>
-  <li>“PRIDE” PhD Scholarship, Fonds National de la Recherche Luxembourg (FNR), 2019.</li>
-  <li>Direct admission with full scholarships, CERGE-EI, 2015.</li>
-  <li>Scholarships for excellent results in the final general Exam, Czech Ministry of Education, 2015.</li>
-  <li>Czech government full scholarships for graduate students with an outstanding curriculum, 2013.</li>
-  <li>BA in Economics with Great Distinction [Ranked 1st], Haramaya University, 2010.</li>
- </ul>
-</details>
+<div class="tag-pills" markdown="1">
+<span class="tag-pill__label">Data Processing:</span>
+<span class="tag-pill">STATA</span>
+<span class="tag-pill">Python</span>
+<span class="tag-pill">R</span>
+</div>
+
+<div class="tag-pills" markdown="1">
+<span class="tag-pill__label">Data Visualisation:</span>
+<span class="tag-pill">Plotly</span>
+<span class="tag-pill">Matplotlib</span>
+<span class="tag-pill">Seaborn</span>
+<span class="tag-pill">Dash</span>
+<span class="tag-pill">ggplot</span>
+</div>
+
+<div class="tag-pills" markdown="1">
+<span class="tag-pill__label">Machine Learning:</span>
+<span class="tag-pill">Scikit-learn</span>
+<span class="tag-pill">Keras</span>
+<span class="tag-pill">TensorFlow</span>
+<span class="tag-pill">PyTorch</span>
+<span class="tag-pill">+ more</span>
+</div>
+
+## <i class="fas fa-award heading-icon"></i>Honors and Scholarships
+
+<div class="honor-list" markdown="1">
+<div class="honor-row" markdown="1">
+<span class="honor-row__year">2019</span>
+<span class="honor-row__text">"PRIDE" PhD Scholarship, Fonds National de la Recherche Luxembourg (FNR)</span>
+</div>
+<div class="honor-row" markdown="1">
+<span class="honor-row__year">2015</span>
+<span class="honor-row__text">Direct admission with full scholarship, CERGE-EI</span>
+</div>
+<div class="honor-row" markdown="1">
+<span class="honor-row__year">2015</span>
+<span class="honor-row__text">Scholarship for excellent results in the final general exam, Czech Ministry of Education</span>
+</div>
+<div class="honor-row" markdown="1">
+<span class="honor-row__year">2013</span>
+<span class="honor-row__text">Full scholarship for outstanding graduate curriculum, Czech Government</span>
+</div>
+<div class="honor-row" markdown="1">
+<span class="honor-row__year">2010</span>
+<span class="honor-row__text">BA in Economics with Great Distinction (ranked 1st), Haramaya University</span>
+</div>
+</div>

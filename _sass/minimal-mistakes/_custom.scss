@@ -229,6 +229,36 @@ figure figcaption {
     margin-right: 0.3em;
 }
 
+/* Compact honor/award rows, e.g. for CV Honors and Scholarships section */
+.honor-list {
+    margin: 1em 0;
+    border-top: 1px solid $border-color;
+}
+
+.honor-row {
+    display: flex;
+    align-items: baseline;
+    gap: 0.9em;
+    padding: 0.85em 0;
+    border-bottom: 1px solid $border-color;
+}
+
+.honor-row__year {
+    flex: 0 0 auto;
+    display: inline-block;
+    padding: 0.15em 0.7em;
+    border-radius: 20px;
+    background-color: $code-background-color;
+    border: 1px solid $border-color;
+    color: $secondary-color;
+    font-weight: 600;
+    font-size: 0.8em;
+}
+
+.honor-row__text {
+    color: $text-color;
+}
+
 /* Homepage hero - spacing below is on the same scale as the theme's own
    paragraph rhythm ($indent-var), so hero/section gaps feel consistent
    with the rest of the page content */
