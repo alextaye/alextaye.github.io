@@ -63,8 +63,6 @@ Using the European Union Statistics on Income and Living Conditions (EU-SILC) mi
 
 ### Vulnerability to Poverty: An Explainable Machine Learning Approach
 
-<span class="card__meta">Joint with C. D'Ambrosio</span>
-
 Building on the definition of vulnerability as expected poverty, we train supervised machine-learning algorithms and a baseline OLS using the German Socio-Economic Panel (version 37) data for years 1984-2020 under two scenarios: 1) considering only cross-sectional data; 2) using over time information on the relative position of the household in the income distribution. Random Forest (RF), Gradient boosted trees (GBT), and Neural Networks (NN) predict the vulnerable group on average by 20%, 15.3%, and 12,3% more than the OLS in the first scenario. The hit rate and the overall accuracy of all vulnerability estimates increase in the second scenario, but the sensitivity gains shrink to 15.6%, 11.5%, and 6.6%, respectively. With Shapely values from the RF model, we explain the sources of vulnerability and their evolution. We find that weak ties to the labour market, single-person households, the number of dependants in the family, living in East Germany, and the sociodemographic characteristics of household head are associated with vulnerability to poverty.
 
 <div class="tag-pills" markdown="1">
