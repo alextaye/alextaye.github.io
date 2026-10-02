@@ -1,0 +1,44 @@
+# Countries/cities visited, shown on links.md ("Places I have been").
+# To add a new place: add one entry below (or one city to an existing
+# country's `cities` list) - the stat counts and tag list on the page
+# are both generated from this file, nothing else needs to change.
+#
+# NOTE: city names below are PLACEHOLDERS (mostly capitals, or inferred
+# from conferences/education already listed elsewhere on the site) -
+# user confirmed real cities will be supplied later to replace these.
+- name: Belgium
+  continent: Europe
+  cities: ["Brussels"]
+- name: Czechia
+  continent: Europe
+  cities: ["Prague"]
+- name: Ethiopia
+  continent: Africa
+  cities: ["Addis Ababa"]
+- name: France
+  continent: Europe
+  cities: ["Paris"]
+- name: Germany
+  continent: Europe
+  cities: ["Trier"]
+- name: Italy
+  continent: Europe
+  cities: ["Rome"]
+- name: Kenya
+  continent: Africa
+  cities: ["Nairobi"]
+- name: Luxembourg
+  continent: Europe
+  cities: ["Luxembourg City", "Esch-sur-Alzette"]
+- name: Netherlands
+  continent: Europe
+  cities: ["Amsterdam"]
+- name: Spain
+  continent: Europe
+  cities: ["Madrid"]
+- name: Switzerland
+  continent: Europe
+  cities: ["Zurich"]
+- name: United States
+  continent: North America
+  cities: ["New York"]

@@ -30,17 +30,26 @@ toc_icon: "gear"
 
 ## <i class="fas fa-globe-africa heading-icon"></i>Places I have been
 
-<div class="tag-pills" markdown="1">
-<span class="tag-pill">Belgium</span>
-<span class="tag-pill">Czechia</span>
-<span class="tag-pill">Ethiopia</span>
-<span class="tag-pill">France</span>
-<span class="tag-pill">Germany</span>
-<span class="tag-pill">Italy</span>
-<span class="tag-pill">Kenya</span>
-<span class="tag-pill">Luxembourg</span>
-<span class="tag-pill">Netherlands</span>
-<span class="tag-pill">Spain</span>
-<span class="tag-pill">Switzerland</span>
-<span class="tag-pill">United States</span>
+{% assign places = site.data.visited_places %}
+{% assign continents = places | map: "continent" | uniq %}
+{% assign city_total = 0 %}
+{% for p in places %}{% assign city_total = city_total | plus: p.cities.size %}{% endfor %}
+
+<div class="stat-bar" markdown="1">
+<div class="stat" markdown="1">
+<span class="stat__number">{{ continents.size }}</span>
+<span class="stat__label">Continents</span>
 </div>
+<div class="stat" markdown="1">
+<span class="stat__number">{{ places.size }}</span>
+<span class="stat__label">Countries</span>
+</div>
+<div class="stat" markdown="1">
+<span class="stat__number">{{ city_total }}</span>
+<span class="stat__label">Cities</span>
+</div>
+</div>
+
+<div class="tag-pills" markdown="1">
+{% for p in places %}<span class="tag-pill">{{ p.name }} &mdash; {{ p.cities | join: ", " }}</span>
+{% endfor %}</div>
