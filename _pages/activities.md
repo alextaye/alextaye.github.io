@@ -1,9 +1,9 @@
 ---
-title: ""
+title: "Academic Activities"
 layout: archive
 classes: wide
 sitemap: true
-permalink: /links/
+permalink: /activities/
 author_profile: true
 toc: true
 toc_label: "Category"
@@ -49,7 +49,3 @@ toc_icon: "gear"
 <span class="stat__label">Cities</span>
 </div>
 </div>
-
-<div class="tag-pills" markdown="1">
-{% for p in places %}<span class="tag-pill">{{ p.name }} &mdash; {{ p.cities | join: ", " }}</span>
-{% endfor %}</div>
