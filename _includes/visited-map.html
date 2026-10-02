@@ -1,0 +1,25 @@
+<!-- Stylized continent-silhouette map with pins for visited places.
+     Continent shapes are simplified/decorative (not precise borders) -
+     see _data/visited_places.yml for the single source of truth that
+     drives both these pins and the stat bar above. -->
+<div class="map-panel">
+  <div class="map-canvas">
+    <svg class="map-svg" viewBox="0 0 1000 500" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
+      <path class="continent" d="M 70,70 C 140,40 220,50 260,90 C 290,120 270,160 250,190 C 220,230 160,235 120,210 C 80,185 60,140 70,70 Z" />
+      <path class="continent" d="M 220,260 C 260,250 300,270 310,310 C 320,360 300,410 270,430 C 245,445 215,420 205,380 C 195,340 200,280 220,260 Z" />
+      <path class="continent" d="M 460,80 C 500,65 540,75 555,100 C 565,120 550,145 525,155 C 500,165 470,155 455,130 C 448,115 450,95 460,80 Z" />
+      <path class="continent" d="M 460,190 C 510,180 570,190 600,220 C 620,245 615,270 600,290 C 590,310 570,330 550,360 C 530,390 500,400 480,385 C 460,370 450,330 450,290 C 450,250 450,210 460,190 Z" />
+      <path class="continent" d="M 580,60 C 650,40 750,45 830,70 C 880,90 900,130 890,170 C 880,210 820,230 760,220 C 700,210 630,200 590,170 C 560,145 565,100 580,60 Z" />
+      <path class="continent" d="M 790,340 C 830,330 870,340 885,365 C 895,385 880,405 850,410 C 820,415 795,400 785,380 C 780,365 782,350 790,340 Z" />
+    </svg>
+    {% assign places = site.data.visited_places %}
+    {% for p in places %}
+      {% assign x = p.lon | plus: 180 | times: 1000 | divided_by: 360.0 %}
+      {% assign y = 90 | minus: p.lat | times: 500 | divided_by: 180.0 %}
+      {% assign xpct = x | divided_by: 10.0 %}
+      {% assign ypct = y | divided_by: 5.0 %}
+      <div class="pin" style="left: {{ xpct }}%; top: {{ ypct }}%;" title="{{ p.name }} — {{ p.cities | join: ', ' }}"></div>
+    {% endfor %}
+  </div>
+  <div class="map-caption">Hover a pin for the country and city. Simplified continent shapes - self-hosted SVG, no external map library.</div>
+</div>

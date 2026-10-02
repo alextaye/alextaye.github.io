@@ -30,6 +30,8 @@ toc_icon: "gear"
 
 ## <i class="fas fa-globe-africa heading-icon"></i>Places I have been
 
+{% include visited-map.html %}
+
 {% assign places = site.data.visited_places %}
 {% assign continents = places | map: "continent" | uniq %}
 {% assign city_total = 0 %}
