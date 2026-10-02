@@ -224,10 +224,28 @@ figure figcaption {
     color: $text-color;
 }
 
-.tag-pill__label {
+/* Skill category grouping - icon + label above its row of tag pills */
+.skill-block {
+    margin-bottom: 1.1em;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.skill-block__label {
+    display: block;
     color: $secondary-color;
     font-weight: 600;
-    margin-right: 0.3em;
+    font-size: 0.78em;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin-bottom: 0.45em;
+
+    i {
+        color: $primary-color;
+        margin-right: 0.4em;
+    }
 }
 
 /* Compact honor/award rows, e.g. for CV Honors and Scholarships section */

@@ -71,45 +71,55 @@ and the intersection of machine learning and microeconometrics.
 
 ## <i class="far fa-list-alt heading-icon"></i>Skills
 
+<div class="skill-block" markdown="1">
+<span class="skill-block__label"><i class="fas fa-comments"></i>Languages</span>
 <div class="tag-pills" markdown="1">
-<span class="tag-pill__label">Languages:</span>
 <span class="tag-pill">Amharic — Native</span>
 <span class="tag-pill">Affan Oromo — Native</span>
 <span class="tag-pill">English — Fluent</span>
 <span class="tag-pill">French — Elementary</span>
 <span class="tag-pill">Czech — Basic</span>
 </div>
+</div>
 
+<div class="skill-block" markdown="1">
+<span class="skill-block__label"><i class="fas fa-keyboard"></i>Text Editor</span>
 <div class="tag-pills" markdown="1">
-<span class="tag-pill__label">Text Editor:</span>
 <span class="tag-pill">LaTeX</span>
 <span class="tag-pill">Markdown</span>
 <span class="tag-pill">Microsoft Office</span>
 </div>
+</div>
 
+<div class="skill-block" markdown="1">
+<span class="skill-block__label"><i class="fas fa-database"></i>Data Processing</span>
 <div class="tag-pills" markdown="1">
-<span class="tag-pill__label">Data Processing:</span>
 <span class="tag-pill">STATA</span>
 <span class="tag-pill">Python</span>
 <span class="tag-pill">R</span>
 </div>
+</div>
 
+<div class="skill-block" markdown="1">
+<span class="skill-block__label"><i class="fas fa-chart-bar"></i>Data Visualisation</span>
 <div class="tag-pills" markdown="1">
-<span class="tag-pill__label">Data Visualisation:</span>
 <span class="tag-pill">Plotly</span>
 <span class="tag-pill">Matplotlib</span>
 <span class="tag-pill">Seaborn</span>
 <span class="tag-pill">Dash</span>
 <span class="tag-pill">ggplot</span>
 </div>
+</div>
 
+<div class="skill-block" markdown="1">
+<span class="skill-block__label"><i class="fas fa-brain"></i>Machine Learning</span>
 <div class="tag-pills" markdown="1">
-<span class="tag-pill__label">Machine Learning:</span>
 <span class="tag-pill">Scikit-learn</span>
 <span class="tag-pill">Keras</span>
 <span class="tag-pill">TensorFlow</span>
 <span class="tag-pill">PyTorch</span>
 <span class="tag-pill">+ more</span>
+</div>
 </div>
 
 ## <i class="fas fa-award heading-icon"></i>Honors and Scholarships
