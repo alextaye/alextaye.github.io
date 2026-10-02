@@ -58,7 +58,7 @@ Random Forest / GBT / NN models outperform OLS baselines on German SOEP panel da
 ## Selected Posts
 
 <div class="card" markdown="1">
-_New posts coming soon._ In the meantime, check out [what else I'm working on](/misc/).
+_New posts coming soon._ In the meantime, check out [a few quotes I like](/misc/).
 </div>
 
 ***
