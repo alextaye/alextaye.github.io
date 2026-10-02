@@ -9,7 +9,8 @@ classes: wide
 
 <div class="eyebrow">PhD Economist &middot; University of Luxembourg</div>
 
-# Machine learning meets applied microeconomics.
+<!-- markdownlint-disable-next-line MD022 -- kramdown IAL below must stay directly attached, no blank line -->
+## Machine learning meets applied microeconomics
 {: .hero-title}
 
 I am Alemayehu Taye, a recent Ph.D. graduate from the University of Luxembourg, currently on the job market. I study poverty, wellbeing, and labour markets using explainable machine learning and causal inference. Before that, I was a doctoral researcher in Economics at the <a href="https://wwwen.uni.lu/fdef/department_of_economics_and_management/">University of Luxembourg</a> (Department of Economics and Management) in Data-driven Computational Modelling and Applications <a href="https://driven.uni.lu/team/">(DRIVEN)</a> research team.
