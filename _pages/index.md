@@ -25,7 +25,7 @@ Prior to commencing my postgraduate studies, I worked as an Assistant Research O
 Outside of my research, I enjoy painting and photography, which help me to maintain a healthy work-life balance. I also believe in the importance of giving back to the community.
 
 <div class="btn-row" markdown="1">
-[Download CV](/_pages/Taye_cv.pdf){: .btn .btn--primary target="_blank" rel="noopener noreferrer"}
+[View CV](/cv/){: .btn .btn--primary}
 [View Research &rarr;](/research/){: .btn-text}
 </div>
 
