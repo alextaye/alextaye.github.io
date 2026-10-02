@@ -37,6 +37,28 @@ Using a unique harmonised real‐time data set from the COME-HERE longitudinal s
 [Read on Nature.com &rarr;](https://doi.org/10.1038/s41598-023-33033-1){: .inline-link target="_blank" rel="noopener noreferrer"}
 </div>
 </div>
+
+<div class="card" markdown="1">
+<span class="card__tag">Vie & Sciences de l'Entreprise &middot; No. 226-227 &middot; 2025</span>
+
+### Predicting Material and Social Deprivations with Machine Learning
+
+Using the European Union Statistics on Income and Living Conditions (EU-SILC) microdata and applying machine learning (ML) algorithms, I explore the questions: 1) How accurately can one classify unseen individuals' deprivations status given their observable personal, household, and country-specific factors? 2) What is the performance of targeting subsets of features, such as sociodemographic, socioeconomic, health, and location, to identify the deprived? 3) What are the key predictors and their partial effects? Key results of the empirical analysis demonstrate that the relative accuracy gained by using the sophisticated tree-based ML algorithm is positive and significant compared to that of the standard Generalised linear model (7.3% relative gain with the Extreme gradient boosted trees and 5.9% with the Random forests). Socioeconomic factors yield a classification accuracy as close as when the whole set of features is considered. Feature importance and partial effect analysis identified with Shapley's value reveal insightful relationships consistent with theoretical and empirical evidence.
+
+<div class="tag-pills" markdown="1">
+<span class="tag-pill">Deprivation</span>
+<span class="tag-pill">Machine Learning</span>
+<span class="tag-pill">EU-SILC</span>
+<span class="tag-pill">Classification</span>
+<span class="tag-pill">Economic Precariousness</span>
+</div>
+
+<span class="card__cite">Taye, A. D. (2025). Predicting material and social deprivations with machine learning. <em>Vie & Sciences de l'Entreprise</em>, 226-227(3-4), 402–419.</span>
+
+<div class="card__links" markdown="1">
+[Read on Cairn.info &rarr;](https://doi.org/10.3917/vse.226.0402){: .inline-link target="_blank" rel="noopener noreferrer"}
+</div>
+</div>
 </div>
 
 ## <i class="far fa-file-alt heading-icon"></i>Working papers
@@ -59,23 +81,6 @@ Building on the definition of vulnerability as expected poverty, we train superv
 </div>
 
 <span class="card__cite">Taye, A. D., & D'Ambrosio, C. (2023). Vulnerability to poverty: An explainable machine learning approach <em>[Working paper]</em>.</span>
-</div>
-
-<div class="card" markdown="1">
-<span class="card__tag">Working paper &middot; 2023</span>
-
-### Predicting Material and Social Deprivations in EU with ML
-
-Using the European Union Statistics on Income and Living Conditions (EU-SILC) microdata and applying machine learning (ML) algorithms, I explore the questions: 1) How accurately can one classify unseen individuals' deprivations status given their observable personal, household, and country-specific factors? 2) What is the performance of targeting subsets of features, such as sociodemographic, socioeconomic, health, and location, to identify the deprived? 3) What are the key predictors and their partial effects? Key results of the empirical analysis demonstrate that the relative accuracy gained by using the sophisticated tree-based ML algorithm is positive and significant compared to that of the standard Generalised linear model (7.3% relative gain with the Extreme gradient boosted trees and 5.9% with the Random forests). Socioeconomic factors yield a classification accuracy as close as when the whole set of features is considered. Feature importance and partial effect analysis identified with Shapley's value reveal insightful relationships consistent with theoretical and empirical evidence.
-
-<div class="tag-pills" markdown="1">
-<span class="tag-pill">Deprivation</span>
-<span class="tag-pill">Machine Learning</span>
-<span class="tag-pill">EU-SILC</span>
-<span class="tag-pill">Classification</span>
-</div>
-
-<span class="card__cite">Taye, A. D. (2023). Predicting material and social deprivations in EU with ML <em>[Working paper]</em>.</span>
 </div>
 </div>
 
