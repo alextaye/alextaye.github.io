@@ -16,7 +16,7 @@ My research sits at the intersection of applied microeconomics and machine learn
 
 <div class="cards" markdown="1">
 <div class="card" markdown="1">
-<span class="card__tag">Scientific Reports &mdash; Nature &middot; 2023</span>
+<span class="card__tag">Scientific Reports &middot; Vol. 13, Article 6121 &middot; 2023</span>
 
 ### A machine learning approach to predict self-protecting behaviors during the early wave of the COVID-19 pandemic
 
@@ -25,13 +25,17 @@ My research sits at the intersection of applied microeconomics and machine learn
 Using a unique harmonised real‐time data set from the COME-HERE longitudinal survey that covers five European countries (France, Germany, Italy, Spain, and Sweden) and applying a non-parametric machine learning model, we identify the main individual and macro-level predictors of self-protecting behaviours against the coronavirus disease 2019 (COVID-19) during the first wave of the pandemic. Exploiting the interpretability of a Random forest algorithm via Shapely values, we find that a higher regional incidence of COVID-19 triggers higher levels of self-protective behaviour, as does a stricter government policy response. The level of individual knowledge about the pandemic, confidence in institutions, and population density also ranks high among the factors that predict self-protecting behaviours. We also identify a steep socioeconomic gradient with lower levels of self-protecting behaviours being associated with lower income and poor housing conditions. Among socio-demographic factors, gender, marital status, age, and region of residence are the main determinants of self-protective measures.
 
 <div class="tag-pills" markdown="1">
-<span class="tag-pill">Machine Learning</span>
-<span class="tag-pill">COVID-19</span>
-<span class="tag-pill">Protective Behaviour</span>
-<span class="tag-pill">Random Forest</span>
+<span class="tag-pill">Human Behaviour</span>
+<span class="tag-pill">Psychology</span>
+<span class="tag-pill">Risk Factors</span>
+<span class="tag-pill">Migration Patterns and Socioeconomic Dynamics in Regional Development</span>
 </div>
 
-<span class="card__cite">Taye, A. D., Borga, L. G., Greiff, S., Vögele, C., & D'Ambrosio, C. (2023). A machine learning approach to predict self-protecting behaviors during the early wave of the COVID-19 pandemic. <em>Scientific Reports</em>.</span>
+<span class="card__cite">Taye, A. D., Borga, L. G., Greiff, S. et al. A machine learning approach to predict self-protecting behaviors during the early wave of the COVID-19 pandemic. <em>Sci Rep</em> 13, 6121 (2023).</span>
+
+<div class="card__links" markdown="1">
+[Read on Nature.com &rarr;](https://doi.org/10.1038/s41598-023-33033-1){: .inline-link target="_blank" rel="noopener noreferrer"}
+</div>
 </div>
 </div>
 
