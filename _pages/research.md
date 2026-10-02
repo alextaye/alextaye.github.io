@@ -56,7 +56,7 @@ Using the European Union Statistics on Income and Living Conditions (EU-SILC) mi
 <span class="card__cite">Taye, A. D. (2025). Predicting material and social deprivations with machine learning. <em>Vie & Sciences de l'Entreprise</em>, 226-227(3-4), 402–419.</span>
 
 <div class="card__links" markdown="1">
-[Read on Cairn.info &rarr;](https://doi.org/10.3917/vse.226.0402){: .inline-link target="_blank" rel="noopener noreferrer"}
+[Read on Cairn.info &rarr;](https://shs.cairn.info/revista-vie-sciences-de-lentreprise-2025-3-page-402?lang=es){: .inline-link target="_blank" rel="noopener noreferrer"}
 </div>
 </div>
 </div>
