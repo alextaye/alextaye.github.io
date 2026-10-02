@@ -10,7 +10,7 @@ toc_label: "Category"
 toc_icon: "gear"
 ---
 
-<a class="btn btn--primary" target="_blank" href="/_pages/Taye_cv.pdf"><i class="fas fa-download"></i> Download full CV <i class="far fa-file-pdf"></i></a>
+<a class="btn btn--primary" target="_blank" rel="noopener noreferrer" href="/_pages/Taye_cv.pdf"><i class="fas fa-download"></i> Download full CV <i class="far fa-file-pdf"></i></a>
 
 ***
 
