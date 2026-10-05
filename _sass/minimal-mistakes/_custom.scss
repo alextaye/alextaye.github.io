@@ -468,6 +468,13 @@ figure figcaption {
     z-index: 0; // keep Leaflet's internal stacking context below the site nav
 }
 
+#office-map {
+    height: 320px;
+    width: 100%;
+    border-radius: $border-radius;
+    z-index: 0;
+}
+
 .map-caption {
     margin-top: 0.8em;
     font-size: 0.8em;

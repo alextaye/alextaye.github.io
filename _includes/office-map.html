@@ -1,0 +1,25 @@
+<!-- Single-marker OpenStreetMap (Leaflet), same CDN/SRI setup as
+     visited-map.html on the Activities page. Replaces the previous raw
+     osm.org/export/embed.html iframe, which rendered as a blank black
+     box and ignored the site's styling entirely. -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+
+<div class="map-panel">
+  <div id="office-map"></div>
+  <div class="map-caption">Maison des Sciences Humaines, Esch-sur-Alzette, Luxembourg.</div>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+  integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script>
+  (function () {
+    var officeLatLng = [49.504258928966074, 5.946296453475952];
+    var map = L.map('office-map', { scrollWheelZoom: false }).setView(officeLatLng, 16);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+      maxZoom: 19
+    }).addTo(map);
+    L.marker(officeLatLng).addTo(map).bindPopup('Maison des Sciences Humaines').openPopup();
+  })();
+</script>

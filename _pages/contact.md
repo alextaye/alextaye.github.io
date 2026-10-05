@@ -9,6 +9,13 @@ toc: true
 toc_label: "Category"
 toc_icon: "gear"
 ---
+
+I'm always glad to hear from fellow researchers, potential collaborators, or anyone interested in my work on machine learning, poverty, and wellbeing &mdash; email is the fastest way to reach me.
+
+<div class="btn-row" markdown="1">
+[Email Me](mailto:alemayehutaye.econ@gmail.com){: .btn .btn--primary}
+</div>
+
 ## <i class="fas fa-envelope heading-icon"></i>Contact me
 
 <div class="contact-rows" markdown="1">
@@ -16,10 +23,6 @@ toc_icon: "gear"
 <i class="fas fa-map-marker-alt contact-row__icon"></i>
 <span>Maison des Sciences Humaines, 11 Porte de Sciences, L-4366 Esch-sur-Alzette, Luxembourg</span>
 </div>
-<div class="contact-row" markdown="1">
-<i class="fas fa-phone contact-row__icon"></i>
-<span>+352 691 141 138</span>
-</div>
 </div>
 
-<iframe width="90%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Map showing the office location in Esch-sur-Alzette, Luxembourg" src="https://www.openstreetmap.org/export/embed.html?bbox=5.944043397903443%2C49.5029246890642%2C5.948549509048463%2C49.50559313248484&amp;layer=mapnik&amp;marker=49.504258928966074%2C5.946296453475952" style="border: 1px solid black"></iframe>
+{% include office-map.html %}
