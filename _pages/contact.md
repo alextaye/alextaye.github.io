@@ -5,9 +5,6 @@ layout: archive
 sitemap: true
 classes: wide
 author_profile: true
-toc: true
-toc_label: "Category"
-toc_icon: "gear"
 ---
 
 I'm always glad to hear from fellow researchers, potential collaborators, or anyone interested in my work on machine learning, poverty, and wellbeing &mdash; email is the fastest way to reach me.

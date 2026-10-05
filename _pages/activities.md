@@ -5,9 +5,6 @@ classes: wide
 sitemap: true
 permalink: /activities/
 author_profile: true
-toc: true
-toc_label: "Category"
-toc_icon: "gear"
 ---
 
 ## <i class="fas fa-users heading-icon"></i>Selected Conferences & Workshops

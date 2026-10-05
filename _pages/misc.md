@@ -5,9 +5,6 @@ sitemap: true
 permalink: /misc/
 classes: wide
 author_profile: true
-toc: true
-toc_label: "Category"
-toc_icon: "gear"
 ---
 
 ## <i class="fas fa-quote-left heading-icon"></i>Quotes I Like
