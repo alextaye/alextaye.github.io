@@ -1,7 +1,6 @@
 # alextaye.github.io
 
-Personal academic website of **[Alemayehu Taye](https://alextaye.github.io/)**,
-PhD Economist (University of Luxembourg).
+Personal academic website of **[Alemayehu Taye](https://alextaye.github.io/)**.
 
 Live at **[alextaye.github.io](https://alextaye.github.io/)**.
 
