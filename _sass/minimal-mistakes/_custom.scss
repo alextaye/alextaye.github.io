@@ -476,18 +476,19 @@ figure figcaption {
 
 .map-country {
     fill: transparent;
-    stroke: transparent;
+    stroke: rgba(60, 60, 60, 0.45); // thin neutral border for every country, regardless of site skin - the OSM base tiles underneath don't change with light/dark mode either
+    stroke-width: 0.75;
 }
 
 .map-country--visited {
-    fill: $secondary-color;
-    fill-opacity: 0.45;
-    stroke: $secondary-color;
+    fill: $primary-color;
+    fill-opacity: 0.55;
+    stroke: $primary-color;
     stroke-width: 1.5;
     cursor: pointer;
 
     &:hover {
-        fill-opacity: 0.65;
+        fill-opacity: 0.75;
     }
 }
 
