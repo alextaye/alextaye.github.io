@@ -16,3 +16,7 @@ npm-debug.log*
 .DS_Store
 .vscode/
 *.swp
+
+# Internal notes - never published (see MAINTENANCE.md for why)
+MAINTENANCE.md
+
