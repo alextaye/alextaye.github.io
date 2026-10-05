@@ -481,9 +481,9 @@ figure figcaption {
 }
 
 .map-country--visited {
-    fill: $primary-color;
+    fill: $secondary-color;
     fill-opacity: 0.55;
-    stroke: $primary-color;
+    stroke: $secondary-color;
     stroke-width: 1.5;
     cursor: pointer;
 
