@@ -1,8 +1,7 @@
 # alextaye.github.io
 
 Personal academic website of **[Alemayehu Taye](https://alextaye.github.io/)**,
-PhD Economist (University of Luxembourg) working at the intersection of
-applied microeconomics and explainable machine learning.
+PhD Economist (University of Luxembourg).
 
 Live at **[alextaye.github.io](https://alextaye.github.io/)**.
 
