@@ -4,10 +4,12 @@
      shapes. No per-city markers/popups on the map itself - cities are
      shown only as the "Cities" stat above.
 
-     Tiles: Wikimedia's free, key-free "osm-intl" style
-     (maps.wikimedia.org) - same OpenStreetMap data as the standard
-     tile.openstreetmap.org renderer, but labels prefer English/
-     international names instead of each place's local-language name.
+     Tiles: standard tile.openstreetmap.org. Labels are in each place's
+     local language (OSM's default rendering), not English - tried
+     Wikimedia's 'osm-intl' English-preferring tile style instead, but
+     it blocks requests from non-Wikimedia sites (hotlink/referrer
+     protection), so it's not usable here. English-only labels would
+     need a provider requiring a free API key (CARTO/MapTiler/Stadia).
 
      Country boundaries: assets/data/countries-110m.geojson, a trimmed
      copy of Natural Earth's public-domain 1:110m admin-0 countries
@@ -22,7 +24,7 @@
 
 <div class="map-panel">
   <div id="visited-map"></div>
-  <div class="map-caption">Visited countries highlighted. Map data &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap</a> contributors, tiles courtesy of <a href="https://wikimediafoundation.org/" target="_blank" rel="noopener noreferrer">Wikimedia</a>; boundaries from <a href="https://www.naturalearthdata.com" target="_blank" rel="noopener noreferrer">Natural Earth</a> (public domain).</div>
+  <div class="map-caption">Visited countries highlighted. Map data &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap</a> contributors; boundaries from <a href="https://www.naturalearthdata.com" target="_blank" rel="noopener noreferrer">Natural Earth</a> (public domain).</div>
 </div>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
@@ -34,7 +36,7 @@
     places.forEach(function (p) { namesByCode[p.code] = p.name; });
 
     var map = L.map('visited-map', { scrollWheelZoom: false }).setView([25, 10], 2);
-    L.tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}.png', {
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
       maxZoom: 18
     }).addTo(map);
