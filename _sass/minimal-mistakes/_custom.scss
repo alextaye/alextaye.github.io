@@ -45,6 +45,11 @@ figure figcaption {
     align-items: center;
     gap: 0.4rem;
     padding: 0;
+    // Below $large, the theme renders this as an absolutely-positioned
+    // flyout panel (right: 0, no explicit width) - its shrink-to-fit
+    // width ends up too narrow for our 40px icon buttons, wrapping them
+    // into a vertical stack instead of a row. Force enough room.
+    min-width: 200px;
 
     li {
         white-space: normal;
