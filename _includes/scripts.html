@@ -6,6 +6,22 @@
   <script src="{{ '/assets/js/main.min.js' | relative_url }}"></script>
 {% endif %}
 
+<script>
+  // Fix: the greedy-nav plugin measures nav link widths once on page load,
+  // before the IBM Plex Sans webfont has necessarily finished loading/
+  // swapping in. If it measures fallback-font widths, it can wrongly
+  // decide items don't fit and collapse the nav into the mobile hamburger
+  // menu even on a wide viewport - and nothing re-triggers the check
+  // afterwards (it's only re-run on window resize). Re-run it once fonts
+  // are confirmed ready by dispatching a resize event, which the plugin
+  // already listens for.
+  if (document.fonts && document.fonts.ready) {
+    document.fonts.ready.then(function () {
+      window.dispatchEvent(new Event('resize'));
+    });
+  }
+</script>
+
 {% if site.search == true or page.layout == "search" %}
   {%- assign search_provider = site.search_provider | default: "lunr" -%}
   {%- case search_provider -%}
