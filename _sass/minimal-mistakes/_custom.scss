@@ -452,6 +452,28 @@ figure figcaption {
     }
 }
 
+/* OpenStreetMap/Leaflet panel, e.g. Activities page "Places I have been" */
+.map-panel {
+    margin: 1em 0 1.5em;
+    padding: 1em;
+    border: 1px solid $border-color;
+    border-radius: $border-radius;
+    background-color: $code-background-color;
+}
+
+#visited-map {
+    height: 400px;
+    width: 100%;
+    border-radius: $border-radius;
+    z-index: 0; // keep Leaflet's internal stacking context below the site nav
+}
+
+.map-caption {
+    margin-top: 0.8em;
+    font-size: 0.8em;
+    color: $muted-text-color;
+}
+
 /* Stat bar, e.g. Continents/Countries/Cities summary on links.md */
 .stat-bar {
     display: flex;
