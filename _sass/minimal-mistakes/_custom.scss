@@ -343,6 +343,19 @@ figure figcaption {
     color: $text-color;
 }
 
+/* Theme defaults for Markdown ## / ### section headings are too close in
+   size to body text (h2: 1.25em, h3: 1.125em) to read as a clear hierarchy -
+   widen the jump for the headings actually used in page content. */
+.page__content {
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+}
+
 /* Contact info rows, e.g. address/phone on the Contact page - replaces
    ad-hoc inline style="font-size:30px" icons */
 .contact-rows {
