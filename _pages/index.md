@@ -33,26 +33,21 @@ Outside of my research, I enjoy painting and photography, which help me to maint
 
 ## Selected Research
 
+<!-- Pulled from _data/publications.yml (entries with featured: true) so this
+     section can never drift out of sync with /research/ - edit a paper's
+     status/citation/etc. there and it updates here automatically. -->
 <div class="cards" markdown="1">
+{% for pub in site.data.publications %}{% if pub.featured %}
 <div class="card" markdown="1">
-<span class="card__tag">Scientific Reports — Nature, 2023</span>
+<span class="card__tag">{{ pub.venue }}</span>
 
-**A machine learning approach to predict self-protecting behaviors during the early wave of the COVID-19 pandemic**
+**{{ pub.title }}**
 
-Non-parametric ML model identifying predictors of protective behaviour across five European countries.
+{{ pub.blurb }}
 
-[Read more &rarr;](/research/){: .inline-link}
+[Read more &rarr;](/research/#{{ pub.id }}){: .inline-link}
 </div>
-
-<div class="card" markdown="1">
-<span class="card__tag">Working Paper</span>
-
-**Vulnerability to Poverty: An Explainable Machine Learning Approach**
-
-Random Forest / GBT / NN models outperform OLS baselines on German SOEP panel data.
-
-[Read more &rarr;](/research/){: .inline-link}
-</div>
+{% endif %}{% endfor %}
 </div>
 
 ## Selected Posts
