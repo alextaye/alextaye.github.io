@@ -103,9 +103,10 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" id="theme_source">
+<!-- ?v= busts stale browser/CDN caches of main.css on every deploy (GH Pages serves it with a 10min max-age, no content hash in the filename) -->
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}?v={{ site.time | date: '%s' }}" id="theme_source">
 {% if site.minimal_mistakes_skin2 %}
-<link rel="stylesheet alternate" href="{{ '/assets/css/theme2.css' | relative_url }}" id="theme_source_2">
+<link rel="stylesheet alternate" href="{{ '/assets/css/theme2.css' | relative_url }}?v={{ site.time | date: '%s' }}" id="theme_source_2">
 <script>
   let theme = sessionStorage.getItem('mm_theme_pref');
   if (theme === "alternate") {
