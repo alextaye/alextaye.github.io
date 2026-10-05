@@ -1,72 +1,62 @@
 # Countries/cities visited, shown on activities.md ("Places I have been").
 # To add a new place: add one entry below (or one city to an existing
-# country's `cities` list) - the stat counts, map marker, and tag list
-# on the page are all generated from this file, nothing else to change.
+# country's `cities` list) - the stat counts and the highlighted country
+# on the map are both generated from this file, nothing else to change.
 #
-# lat/lon are approximate (capital city or similar) - used to place the
-# marker on the OpenStreetMap/Leaflet map, precision doesn't matter much.
+# `code` is the ISO 3166-1 alpha-2 country code, used to match and
+# highlight the country's shape on the map (assets/data/countries-110m.geojson).
 #
 # NOTE: city names below are PLACEHOLDERS (mostly capitals, or inferred
 # from conferences/education already listed elsewhere on the site) -
 # user confirmed real cities will be supplied later to replace these.
+# Cities are shown only as a count (the "Cities" stat), not on the map.
 - name: Belgium
+  code: BE
   continent: Europe
   cities: ["Brussels"]
-  lat: 50.8
-  lon: 4.3
 - name: Czechia
+  code: CZ
   continent: Europe
   cities: ["Prague"]
-  lat: 49.8
-  lon: 15.5
 - name: Ethiopia
+  code: ET
   continent: Africa
   cities: ["Addis Ababa"]
-  lat: 9.1
-  lon: 40.5
 - name: France
+  code: FR
   continent: Europe
   cities: ["Paris"]
-  lat: 46.6
-  lon: 2.2
 - name: Germany
+  code: DE
   continent: Europe
   cities: ["Trier"]
-  lat: 51.2
-  lon: 10.4
 - name: Italy
+  code: IT
   continent: Europe
   cities: ["Rome"]
-  lat: 41.9
-  lon: 12.6
 - name: Kenya
+  code: KE
   continent: Africa
   cities: ["Nairobi"]
-  lat: 0.0
-  lon: 37.9
 - name: Luxembourg
+  code: LU
   continent: Europe
   cities: ["Luxembourg City", "Esch-sur-Alzette"]
-  lat: 49.6
-  lon: 6.1
 - name: Netherlands
+  code: NL
   continent: Europe
   cities: ["Amsterdam"]
-  lat: 52.1
-  lon: 5.3
 - name: Spain
+  code: ES
   continent: Europe
   cities: ["Madrid"]
-  lat: 40.4
-  lon: -3.7
 - name: Switzerland
+  code: CH
   continent: Europe
   cities: ["Zurich"]
-  lat: 46.8
-  lon: 8.2
 - name: United States
+  code: US
   continent: North America
   cities: ["New York"]
-  lat: 39.8
-  lon: -98.6
+
 

@@ -1,14 +1,23 @@
-<!-- Real OpenStreetMap, rendered via Leaflet (MIT-licensed, actively
-     maintained, loaded from CDN with Subresource Integrity hashes pinned
-     to a specific version - not the deprecated amCharts 3 setup this
-     replaced). Markers come from _data/visited_places.yml: add a place
-     there and it shows up here automatically, nothing else to change. -->
+<!-- Real OpenStreetMap (via Leaflet - MIT-licensed, actively maintained,
+     loaded from CDN with Subresource Integrity hashes pinned to a
+     specific version) with visited countries highlighted as filled
+     shapes. No per-city markers/popups on the map itself - cities are
+     shown only as the "Cities" stat above.
+
+     Country boundaries: assets/data/countries-110m.geojson, a trimmed
+     copy of Natural Earth's public-domain 1:110m admin-0 countries
+     dataset (ISO_A2 + ADMIN properties only, geometry unchanged).
+     Self-hosted rather than fetched from a third party at runtime.
+
+     Highlighted countries + the codes used to match them both come from
+     _data/visited_places.yml - add a country there (with its ISO
+     3166-1 alpha-2 `code`) and it lights up here automatically. -->
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
   integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
 
 <div class="map-panel">
   <div id="visited-map"></div>
-  <div class="map-caption">Click a marker for the country and city. Map data &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap</a> contributors.</div>
+  <div class="map-caption">Visited countries highlighted. Map data &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap</a> contributors; boundaries from <a href="https://www.naturalearthdata.com" target="_blank" rel="noopener noreferrer">Natural Earth</a> (public domain).</div>
 </div>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
@@ -16,13 +25,28 @@
 <script>
   (function () {
     var places = {{ site.data.visited_places | jsonify }};
-    var map = L.map('visited-map', { scrollWheelZoom: false }).setView([30, 10], 2);
+    var namesByCode = {};
+    places.forEach(function (p) { namesByCode[p.code] = p.name; });
+
+    var map = L.map('visited-map', { scrollWheelZoom: false }).setView([25, 10], 2);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
       maxZoom: 18
     }).addTo(map);
-    places.forEach(function (p) {
-      L.marker([p.lat, p.lon]).addTo(map).bindPopup(p.name + ' \u2014 ' + p.cities.join(', '));
-    });
+
+    fetch('{{ "/assets/data/countries-110m.geojson" | relative_url }}')
+      .then(function (res) { return res.json(); })
+      .then(function (geo) {
+        L.geoJSON(geo, {
+          style: function (feature) {
+            var visited = namesByCode.hasOwnProperty(feature.properties.ISO_A2);
+            return { className: visited ? 'map-country map-country--visited' : 'map-country' };
+          },
+          onEachFeature: function (feature, layer) {
+            var name = namesByCode[feature.properties.ISO_A2];
+            if (name) layer.bindTooltip(name, { sticky: true });
+          }
+        }).addTo(map);
+      });
   })();
 </script>
