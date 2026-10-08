@@ -13,27 +13,27 @@
 - name: Belgium
   code: BE
   continent: Europe
-  cities: ["Brussels"]
+  cities: ["Brussels", "Ghent", "Bruges", "Liège", "Arlon"]
 - name: Czechia
   code: CZ
   continent: Europe
-  cities: ["Prague"]
+  cities: ["Prague", "Carlovy Vary", "Teplice"]
 - name: Ethiopia
   code: ET
   continent: Africa
-  cities: ["Addis Ababa"]
+  cities: ["Addis Ababa", "Adama", "Awasa", "Dire Dawa", "Harar", "Dilla", "Kulubi", "Hirna", "Chiro", "Alamaya", "Yirgalem", "Jigjiga", "Bako", "Debre Berhan", "Debre Zeyit", "Fiche", "Degem", "Debre Tsige"]
 - name: France
   code: FR
   continent: Europe
-  cities: ["Paris"]
+  cities: ["Paris", "Metz", "Strasbourg", "Colmar"]
 - name: Germany
   code: DE
   continent: Europe
-  cities: ["Trier"]
+  cities: ["Trier", "Munich"]
 - name: Italy
   code: IT
   continent: Europe
-  cities: ["Rome"]
+  cities: ["Rome", "Florence", "Venice"]
 - name: Kenya
   code: KE
   continent: Africa
@@ -41,22 +41,33 @@
 - name: Luxembourg
   code: LU
   continent: Europe
-  cities: ["Luxembourg City", "Esch-sur-Alzette"]
+  cities: ["Luxembourg City", "Esch-sur-Alzette", "Differdange", "Diekirch", "Mersch"] 
 - name: Netherlands
   code: NL
   continent: Europe
-  cities: ["Amsterdam"]
+  cities: ["Amsterdam", "Rotterdam", "The Hague", "Eindhoven"]
 - name: Spain
   code: ES
   continent: Europe
-  cities: ["Madrid"]
+  cities: ["Madrid", "Seville", "Ronda", "Jerez", "Marbella", "Tarifa", "Malaga", "chiclana", "Cádiz", "El Puerto de Santa María", "San Pedro"]
 - name: Switzerland
   code: CH
   continent: Europe
-  cities: ["Zurich"]
+  cities: ["Zurich", "Lucerne", "Interlaken", "Waterfall", "Ienseldan"]
 - name: United States
   code: US
   continent: North America
-  cities: ["New York"]
-
-
+  cities: ["New York", "Brooklyn", "Queens", "Bloomsberg"]
+- name: United Kingdom
+  code: GB
+  continent: Europe
+  cities: ["Gibraltar"]
+- name: Gibraltar
+  code: GI
+  continent: Europe
+  cities: ["Gibraltar"]
+- name: Portugal
+  code: PT
+  continent: Europe
+  cities: ["Faro", "Portimão", "Lagos", "Albufeira"]
+  

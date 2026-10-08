@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../cv-project-tex"
+		}
+	],
+	"settings": {
+		"files.readonlyInclude": {
+			"": true
+		}
+	}
+}
