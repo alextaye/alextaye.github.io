@@ -7,13 +7,15 @@ author_profile: true
 classes: wide
 ---
 
-<!-- <div class="eyebrow">Senior Data Scientist &middot; Economist</div> -->
+<div class="eyebrow"> Data Science &middot; Economics &middot; AI &middot; Privacy</div>
 
-I help public and private partners create value from data. My work focuses on responsible data reuse, privacy-enhancing technologies, data service design and delivery, and data projects from scoping to implementation. I also deliver training.
+<h1 class="headline">Connecting data science, research and responsible data reuse.</h1>
+ 
+<p class="lead">I help public and private partners create value from data, from scoping to delivery. My work covers responsible data reuse, privacy-enhancing technologies and data service design. I also deliver training.</p>
 
 <div class="btn-row" markdown="1">
 [View CV](/cv/){: .btn .btn--primary}
-[View Research &rarr;](/research/){: .btn-text}
+[View Research &rarr;](/research/){: .btn .btn--outline}
 </div>
 
 ## Research Focus
