@@ -24,14 +24,6 @@ My methodological interests span interpretable and causal machine learning, and 
 
 My applied research focuses on development, health, and household economics, including well-being, material and social deprivation, vulnerability to poverty, and protective behaviours during health crises.
 
-## Research Focus
-
-I develop explainable machine learning and applied microeconometric methods to study poverty, inequality, labour markets, and health economics.
-
-My methodological interests span interpretable and causal machine learning, and quasi-experimental methods. I also have a growing research interest in privacy-preserving data science, particularly methods that enable rigorous analysis while safeguarding individual privacy.
-
-My applied research focuses on development, health, and household economics, including well-being, material and social deprivation, vulnerability to poverty, and protective behaviours during health crises.
-
 <div class="divider"><span>&#9670;</span></div>
 
 ## Selected Research
