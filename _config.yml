@@ -105,9 +105,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Alemayehu Taye, PhD"
+  name             : "Dr. Alemayehu Taye"
   avatar           : "/profile3.jpg"
-  bio              : "University of Luxembourg"
+  bio              : "Senior Data Scientist at Luxembourg National Data Service (LNDS)"
   location         : "Belval, Luxembourg"
   #email            : ""
   links:
@@ -123,6 +123,9 @@ author:
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin-in"
       url: "https://www.linkedin.com/in/alex2446/"
+    - label: "ORCID"
+      icon: "fab fa-fw fa-orcid"
+      url: "https://orcid.org/0009-0002-5307-3337"
 
 # Reading Files
 include:
