@@ -7,7 +7,7 @@ permalink: /research/
 author_profile: true
 ---
 
-My research sits at the intersection of applied microeconomics and machine learning. I use explainable ML and causal inference to study poverty, wellbeing, and labour markets — below are my publications, working papers, and thesis.
+<!-- My research sits at the intersection of applied microeconomics and machine learning. I use explainable ML and causal inference to study poverty, wellbeing, and labour markets — below are my publications, working papers, and thesis. -->
 
 ## <i class="fas fa-book heading-icon"></i>Publications
 
